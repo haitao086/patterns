@@ -1,0 +1,14 @@
+package creational.singleton;
+
+public class SingletonLazy {
+    private static  SingletonLazy instance ;
+    private SingletonLazy() {
+        System.out.println("Lazy Mode");
+    }
+    public static synchronized SingletonLazy getInstance() {
+        if (instance == null ) {
+            instance = new SingletonLazy();
+        }
+        return instance ;
+    }
+}

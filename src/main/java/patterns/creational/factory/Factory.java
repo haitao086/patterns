@@ -1,4 +1,4 @@
-package creational.factory;
+package patterns.creational.factory;
 
 public class Factory implements IFactory {
 

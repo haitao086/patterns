@@ -1,10 +1,10 @@
-package creational.prototype;
+package patterns.creational.prototype;
 
 public final class Book {
     private int bookId;
     private String bookName;
 
-    public int getBookId() {
+    int getBookId() {
         return bookId;
     }
 
@@ -12,7 +12,7 @@ public final class Book {
 //        this.bookId = bookId;
 //    }
 
-    public String getBookName() {
+    String getBookName() {
         return bookName;
     }
 
@@ -26,7 +26,7 @@ public final class Book {
         return "Book [bookId = " + bookId +", bookName = " + bookName +"]" ;
     }
 
-    public Book(int id, String name) {
+    Book(int id, String name) {
         this.bookId = id;
         this.bookName = name;
     }

@@ -1,4 +1,4 @@
-package creational.factory;
+package patterns.creational.factory;
 
 public class ProductA implements IProduct {
     private final String name = "Product A";

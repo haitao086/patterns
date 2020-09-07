@@ -1,4 +1,4 @@
-package creational.singleton;
+package patterns.creational.singleton;
 
 public class SingletonLazy {
     private static  SingletonLazy instance ;

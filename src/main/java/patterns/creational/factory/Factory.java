@@ -1,6 +1,6 @@
 package patterns.creational.factory;
 
-public class Factory implements IFactory {
+ class Factory implements IFactory {
 
     @Override
     public IProduct produce(String name) {

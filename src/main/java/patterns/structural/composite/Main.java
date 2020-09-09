@@ -1,8 +1,8 @@
 package patterns.structural.composite;
 
-public class ComponentDemo {
+public class Main {
     public static void main(String[] args) {
-        ComponentDemo demo = new ComponentDemo();
+        Main demo = new Main();
         Composite root = new Composite();
         root.name = "root" ;
         // left

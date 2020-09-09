@@ -2,7 +2,7 @@ package patterns.creational.prototype;
 
 import java.util.List;
 
-public class Demo {
+public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
         BookShop bs = new BookShop() ;
         bs.setShopName("NewStore");

@@ -8,7 +8,7 @@ import patterns.structural.bridge.shape.Rectangle;
 import patterns.structural.bridge.shape.Shape;
 import patterns.structural.bridge.shape.Square;
 
-public class Client {
+public class Main {
     public static void main(String[] args) {
         //white
         IColor white = new White();

@@ -1,6 +1,6 @@
 package patterns.creational.factory;
 
-public class Production {
+public class Main {
     public static void main(String[] args) {
         IFactory factory = new Factory();
         IProduct pa = factory.produce("A") ;

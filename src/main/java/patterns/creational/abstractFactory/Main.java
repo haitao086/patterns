@@ -1,6 +1,6 @@
 package patterns.creational.abstractFactory;
 
-public class Customer {
+public class Main {
 
     public static void main(String[] args) {
         // produce benz a car

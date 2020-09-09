@@ -1,6 +1,6 @@
 package patterns.structural.flyweight;
 
-public class FlyweightPattern {
+public class Main {
 
     FlyweightFactory factory = new FlyweightFactory();
     Flyweight fly1;
@@ -11,9 +11,9 @@ public class FlyweightPattern {
     Flyweight fly6;
 
     /**
-     * Creates a new instance of FlyweightPattern
+     * Creates a new instance of Main
      */
-    public FlyweightPattern() {
+    public Main() {
         fly1 = factory.getFlyWeight("Google");
         fly2 = factory.getFlyWeight("Google");
         fly3 = factory.getFlyWeight("Facebook");
@@ -35,7 +35,7 @@ public class FlyweightPattern {
 
     public static void main(String[] args) {
         System.out.println("The FlyWeight Pattern!");
-        FlyweightPattern fp = new FlyweightPattern();
+        Main fp = new Main();
         fp.showFlyweight();
     }
 

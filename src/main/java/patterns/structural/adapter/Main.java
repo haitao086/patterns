@@ -1,6 +1,6 @@
 package patterns.structural.adapter;
 
-public class Client {
+public class Main {
     public static void main(String[] args) {
 
         // call nethod from normal class

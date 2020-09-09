@@ -1,6 +1,6 @@
 package patterns.structural.proxy;
 
-public class Client {
+public class Main {
     public static void main(String[] args) {
         Customer c1 = new Customer() ;
         c1.setCash(60000);

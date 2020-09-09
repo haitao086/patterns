@@ -1,6 +1,6 @@
 package patterns.creational.builder;
 
-public class Client {
+public class Main {
     public static void main(String[] args) {
         Director director = new Director();
         Product product1 = director.getAProduct();

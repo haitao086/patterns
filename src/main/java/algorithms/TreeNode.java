@@ -56,10 +56,10 @@ class TreeNode {
 
     }
 
-    public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6, 6, 6, 6};
-        TreeNode treeNode = new TreeNode(1);
-        treeNode = TreeNode.insertTreeNode(arr, 0);
-        TreeNode.printInBFS(treeNode);
-    }
+//    public static void main(String[] args) {
+//        int[] arr = {1, 2, 3, 4, 5, 6, 6, 6, 6};
+//        TreeNode treeNode = new TreeNode(1);
+//        treeNode = TreeNode.insertTreeNode(arr, 0);
+//        TreeNode.printInBFS(treeNode);
+//    }
 }
